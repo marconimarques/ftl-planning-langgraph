@@ -1,4 +1,4 @@
-# Full Truck Load (FTL) Planning with LangGraph Framework
+# Full Truck Load (FTL) Planning with LangGraph & LangChain Framework
 
 A working example of what happens when you stop asking LLMs to do arithmetic and let them do what they are actually good at: understanding questions, structuring problems, and explaining results.
 
