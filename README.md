@@ -8,6 +8,10 @@ The math is handled by a MILP solver. The language is handled by agents. Neither
 
 ## The Core Idea
 
+<p align="center">
+<img src="./cli-interface.jpg" alt="Local File in Working Folder" width="950" />
+</p>
+
 A fleet planner asks:
 
 ```
@@ -162,33 +166,4 @@ Brazilian Portuguese is the default language. `/language en` switches to English
 
 ---
 
-## Testing
 
-Deterministic regression checks (no API key required):
-
-```powershell
-python test_review_fixes.py
-```
-
-End-to-end integration (requires `ANTHROPIC_API_KEY`):
-
-```powershell
-python test_pipeline.py
-```
-
----
-
-## What This Project Does Not Model
-
-- Shipment-level dispatch or multi-stop routing
-- Time-window scheduling
-- Driver rosters by individual driver
-- Real-time telemetry or execution tracking
-
-Those are natural next directions, but should be built as separate capabilities rather than extensions of fleet sizing.
-
----
-
-## License
-
-No license file is included. Add one before publishing if you want others to reuse or redistribute the code under clear terms.
