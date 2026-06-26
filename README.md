@@ -132,10 +132,13 @@ python main.py
 Inside the app:
 
 ```text
+/help 
 /language en
 /onboarding
 /baseline
 /questions
+/network
+and others.
 ```
 
 <p align="center">
