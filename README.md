@@ -138,6 +138,10 @@ Inside the app:
 /questions
 ```
 
+<p align="center">
+<img src="./cli-interface-en-slash.jpg" alt="Local File in Working Folder" width="600" />
+</p>
+
 Brazilian Portuguese is the default language. `/language en` switches to English.
 
 ---
