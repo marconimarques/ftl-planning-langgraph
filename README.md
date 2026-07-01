@@ -4,6 +4,8 @@ A working example of what happens when you stop asking LLMs to do arithmetic and
 
 The math is handled by a MILP solver. The language is handled by agents. Neither does the other's job.
 
+Note: Brazilian Portuguese is the default language. `/idioma en` switches to English.
+
 ---
 
 ## The Core Idea
@@ -148,8 +150,6 @@ and others.
 <p align="center">
 <img src="./cli-interface-en-slash.jpg" alt="Local File in Working Folder" width="600" />
 </p>
-
-Brazilian Portuguese is the default language. `/idioma en` switches to English.
 
 ---
 
