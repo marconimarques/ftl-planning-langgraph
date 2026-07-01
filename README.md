@@ -137,7 +137,7 @@ Inside the app:
 
 ```text
 /help 
-/language en
+/language 
 /onboarding
 /baseline
 /questions
